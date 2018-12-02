@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
     int hour = 5;
     TimeSpan ts;
     DateTime dt;
-    public float timeBoost;
+    public int timeBoost = 1;
     public Text text;
 	void Start ()
     {
