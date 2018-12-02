@@ -16,7 +16,16 @@ public class InputController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {        
-        cube.Translate(Vector3.back * Input.GetAxis("Mouse Y") * speed);
+        if(Input.GetMouseButton(0) && Input.GetAxis("Mouse Y") > 0 && cube.transform.position.z > 8)
+        {
+            return;
+        }
+        if (Input.GetMouseButton(0) && Input.GetAxis("Mouse Y") < 0 && cube.transform.position.z < -1)
+        {
+            return;
+        }
+        if(Input.GetMouseButton(0))
+            cube.Translate(Vector3.forward * Input.GetAxis("Mouse Y") * speed);
     }
 
     public void Fingers()
