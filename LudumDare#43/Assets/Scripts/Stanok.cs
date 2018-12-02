@@ -9,7 +9,7 @@ public class Stanok : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.tag == "Detail")
+        if(other.tag == "Detail" && other.GetComponent<IsAxtiveNow>().isActive)
         {
             i++;
             Player.LoseFinger(i);

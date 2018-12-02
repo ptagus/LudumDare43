@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour {
 
     public GameObject[] Hands;
     public Animation Hand;
+    int losingFingers;
 	// Use this for initialization
 	void Start () {
 		
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour {
 
     public void LoseFinger(int number)
     {
+        losingFingers = number;
         Hands[number - 1].SetActive(false);
         Hands[number].SetActive(true);
         Hand = transform.GetChild(number).GetComponent<Animation>();
@@ -28,8 +30,10 @@ public class PlayerController : MonoBehaviour {
 
     IEnumerator LoseFingerAndBreakDetail()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1);
         Hand.Play("hands|remove_finger");
         transform.position = new Vector3(0,0,0);
+        yield return new WaitForSeconds(0.5f);
+        Hands[losingFingers].GetComponent<IsAxtiveNow>().isActive = true;
     }
 }
