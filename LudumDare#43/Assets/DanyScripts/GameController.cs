@@ -12,6 +12,7 @@ public class GameController : MonoBehaviour
     TimeSpan ts;
     DateTime dt;
     public int timeBoost = 1;
+    public GameObject Lose;
     public Text text;
 	void Start ()
     {
@@ -26,6 +27,10 @@ public class GameController : MonoBehaviour
         {
             hour--;
             x = 0;
+        }
+        if(hour == -1)
+        {
+            Lose.SetActive(true);
         }
         text.text = "Hours: " + hour.ToString() + "Minutes: " + min.ToString();
 	}

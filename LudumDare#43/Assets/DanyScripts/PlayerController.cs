@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
-
+    public GameObject Lose;
     public HowMuchDone hdm;
     public SwapDetail sd;
     public GameObject[] Hands;
@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour {
 
     public void LoseFinger(int number)
     {
+        if (number >= Hands.Length - 1)
+            Lose.SetActive(true);
         losingFingers = number;
         Hands[number - 1].SetActive(false);
         Hands[number].SetActive(true);
