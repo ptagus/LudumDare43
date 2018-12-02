@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Stanok : MonoBehaviour
 {
+    public GameController gc;
+    public HowMuchDone hmd;
+    public InputController ic;
 	public static bool screamCount = false;
     int i = 0;
     public PlayerController Player;
@@ -14,9 +17,13 @@ public class Stanok : MonoBehaviour
         {
             i++;
             screamCount = true;
+            gc.timeBoost++;
+            hmd.i = 0;
+            ic.Fingers();
             Player.LoseFinger(i);
         }
-        Debug.Log(other.name + "DetailDone");
+        if (other.tag == "DetailDone")
+            Debug.Log(other.name + "DetailDone");
     }
 
     private void OnTriggerExit(Collider other)

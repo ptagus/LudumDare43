@@ -7,6 +7,8 @@ TagManager:
   - Stanok
   - Detail
   - Lamp
+  - DetailDone
+  - MainHand
   layers:
   - Default
   - TransparentFX
