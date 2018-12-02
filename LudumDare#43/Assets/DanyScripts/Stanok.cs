@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Stanok : MonoBehaviour
 {
+	public static bool screamCount = false;
     int i = 0;
     public PlayerController Player;
 
@@ -12,12 +13,14 @@ public class Stanok : MonoBehaviour
         if(other.tag == "Detail" && other.GetComponent<IsAxtiveNow>().isActive)
         {
             i++;
+
             Player.LoseFinger(i);
         }
         //Always
         //Detail done
         //May Be
         //Lose Finger
+		screamCount = true;
         Debug.Log(other.name + "DetailDone");
     }
 
