@@ -15,6 +15,6 @@ public class InputController : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {        
-        cube.Translate(Vector3.up * Input.GetAxis("Mouse Y"));
+        cube.Translate(Vector3.back * Input.GetAxis("Mouse Y"));
     }
 }
