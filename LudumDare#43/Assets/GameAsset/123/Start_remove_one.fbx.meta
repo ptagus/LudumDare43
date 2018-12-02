@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 8eb591b27d5f04b42816242eb49869af
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: detail
+    100002: hand_l.001
+    100004: hand_r.001
+    100006: hands
+    100008: index_01_l.001
+    100010: index_01_r.001
+    100012: index_01_r.001_end
+    100014: index_02_l.001
+    100016: index_03_l.001
+    100018: index_03_l.001_end
+    100020: lowerarm_l.001
+    100022: lowerarm_r.001
+    100024: mesh
+    100026: mesh.001
+    100028: middle_01_l.001
+    100030: middle_01_r.001
+    100032: middle_02_l.001
+    100034: middle_02_r.001
+    100036: middle_03_l.001
+    100038: middle_03_l.001_end
+    100040: middle_03_r.001
+    100042: middle_03_r.001_end
+    100044: pinky_01_l.001
+    100046: pinky_01_r.001
+    100048: pinky_02_l.001
+    100050: pinky_02_r.001
+    100052: pinky_03_l.001
+    100054: pinky_03_l.001_end
+    100056: pinky_03_r.001
+    100058: pinky_03_r.001_end
+    100060: ring_01_l.001
+    100062: ring_01_r.001
+    100064: ring_02_l.001
+    100066: ring_02_r.001
+    100068: ring_03_l.001
+    100070: ring_03_l.001_end
+    100072: ring_03_r.001
+    100074: ring_03_r.001_end
+    100076: //RootNode
+    100078: thumb_01_l.001
+    100080: thumb_01_r.001
+    100082: thumb_02_l.001
+    100084: thumb_02_r.001
+    100086: thumb_03_l.001
+    100088: thumb_03_l.001_end
+    100090: thumb_03_r.001
+    100092: thumb_03_r.001_end
+    400000: detail
+    400002: hand_l.001
+    400004: hand_r.001
+    400006: hands
+    400008: index_01_l.001
+    400010: index_01_r.001
+    400012: index_01_r.001_end
+    400014: index_02_l.001
+    400016: index_03_l.001
+    400018: index_03_l.001_end
+    400020: lowerarm_l.001
+    400022: lowerarm_r.001
+    400024: mesh
+    400026: mesh.001
+    400028: middle_01_l.001
+    400030: middle_01_r.001
+    400032: middle_02_l.001
+    400034: middle_02_r.001
+    400036: middle_03_l.001
+    400038: middle_03_l.001_end
+    400040: middle_03_r.001
+    400042: middle_03_r.001_end
+    400044: pinky_01_l.001
+    400046: pinky_01_r.001
+    400048: pinky_02_l.001
+    400050: pinky_02_r.001
+    400052: pinky_03_l.001
+    400054: pinky_03_l.001_end
+    400056: pinky_03_r.001
+    400058: pinky_03_r.001_end
+    400060: ring_01_l.001
+    400062: ring_01_r.001
+    400064: ring_02_l.001
+    400066: ring_02_r.001
+    400068: ring_03_l.001
+    400070: ring_03_l.001_end
+    400072: ring_03_r.001
+    400074: ring_03_r.001_end
+    400076: //RootNode
+    400078: thumb_01_l.001
+    400080: thumb_01_r.001
+    400082: thumb_02_l.001
+    400084: thumb_02_r.001
+    400086: thumb_03_l.001
+    400088: thumb_03_l.001_end
+    400090: thumb_03_r.001
+    400092: thumb_03_r.001_end
+    2100000: Material
+    2100002: finger
+    2100004: hands
+    2300000: detail
+    2300002: mesh.001
+    3300000: detail
+    3300002: mesh.001
+    4300000: detail
+    4300002: mesh.001
+    4300004: mesh
+    7400000: hands|remove
+    7400002: hands|remove_finger
+    7400004: mesh.001|remove_finger
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: mesh
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: hands|remove
+      takeName: hands|remove
+      firstFrame: 0
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hands|remove_finger
+      takeName: hands|remove_finger
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mesh.001|remove_finger
+      takeName: mesh.001|remove_finger
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

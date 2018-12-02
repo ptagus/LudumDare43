@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class Stanok : MonoBehaviour
 {
-
+    int i = 0;
+    public PlayerController Player;
 
     private void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Detail")
+        {
+            i++;
+            Player.LoseFinger(i);
+        }
         //Always
         //Detail done
         //May Be
