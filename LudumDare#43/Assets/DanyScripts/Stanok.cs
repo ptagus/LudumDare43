@@ -18,7 +18,7 @@ public class Stanok : MonoBehaviour
             i++;
             screamCount = true;
             gc.timeBoost++;
-            hmd.i = 0;
+            hmd.CloseActive();
             ic.Fingers();
             Player.LoseFinger(i);
         }

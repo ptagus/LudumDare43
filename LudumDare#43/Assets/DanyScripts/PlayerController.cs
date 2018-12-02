@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
 
+    public HowMuchDone hdm;
+    public SwapDetail sd;
     public GameObject[] Hands;
     public Animation Hand;
     int losingFingers;
@@ -28,9 +30,18 @@ public class PlayerController : MonoBehaviour {
         StartCoroutine(LoseFingerAndBreakDetail());
     }
 
+    public void NotLoseFinger()
+    {
+        transform.position = new Vector3(0, 0, 0);
+        sd.SwapDetails();
+        hdm.CloseActive();
+    }
+
     IEnumerator LoseFingerAndBreakDetail()
     {
         yield return new WaitForSeconds(1);
+        hdm.CloseActive();
+        sd.loseDetail();
         Hand.Play("hands|remove_finger");
         transform.position = new Vector3(0,0,0);
         yield return new WaitForSeconds(0.5f);

@@ -37,4 +37,11 @@ public class HowMuchDone : MonoBehaviour {
             }
             Debug.Log(other.name);
     }
+
+    public void CloseActive()
+    {
+        done.image.color = Color.red;
+        done.enabled = false;
+        i = 0;
+    }
 }
