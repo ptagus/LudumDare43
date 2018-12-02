@@ -2,20 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Stanok : MonoBehaviour {
+public class Stanok : MonoBehaviour
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
+        if(other.tag == "Detail")
+        //Always
+        //Detail done
+        //May Be
+        //Lose Finger
+        Debug.Log(other.name +"Enter");
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        //Always
+        //Lose Finger
+        //Detail break
+        Debug.Log(other.name + "Exit");
     }
 }
