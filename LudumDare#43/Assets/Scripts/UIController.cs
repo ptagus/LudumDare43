@@ -15,6 +15,22 @@ public class UIController : MonoBehaviour
         SceneManager.LoadSceneAsync(sceneNumber);
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (About.activeSelf)
+            {
+                About.SetActive(false);
+            }
+
+            if (Settings.activeSelf)
+            {
+                DontSaveSettings();
+            }
+        }
+    }
+
     public void Exit()
     {
         Application.Quit();
@@ -23,6 +39,11 @@ public class UIController : MonoBehaviour
     public void SaveSettings()
     {
         //Save some settings
+        Settings.SetActive(false);
+    }
+
+    public void DontSaveSettings()
+    {
         Settings.SetActive(false);
     }
 }
