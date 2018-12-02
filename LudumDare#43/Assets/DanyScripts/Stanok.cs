@@ -13,14 +13,9 @@ public class Stanok : MonoBehaviour
         if(other.tag == "Detail" && other.GetComponent<IsAxtiveNow>().isActive)
         {
             i++;
-
+            screamCount = true;
             Player.LoseFinger(i);
         }
-        //Always
-        //Detail done
-        //May Be
-        //Lose Finger
-		screamCount = true;
         Debug.Log(other.name + "DetailDone");
     }
 
